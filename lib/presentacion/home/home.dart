@@ -183,7 +183,7 @@ class _HomeState extends State<Home> {
                       padding: EdgeInsets.only(right: 15),
                       child: ListView.builder(
                         scrollDirection: Axis.horizontal,
-                        itemCount: locationsList?.length ?? 0,
+                        itemCount: episodesList?.length ?? 0,
                         shrinkWrap: true,
                         physics: ClampingScrollPhysics(),
                         itemBuilder: (context, index) {
